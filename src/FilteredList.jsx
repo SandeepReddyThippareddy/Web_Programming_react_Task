@@ -29,7 +29,7 @@ class FilteredList extends Component {
   render() {
     return (
       <div className="filter-list">
-        <h1>Produce Search</h1>
+        <h1>Product Search</h1>
         <div className="filter-options">
           <Dropdown onSelect={this.handleTypeSelect}>
             <Dropdown.Toggle variant="success" id="dropdown-basic">
